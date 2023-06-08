@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Ninja Strike Game/Scenes/Start Menu.unity
+    guid: bf2b722bae3284d0eba3e082359d8e20
+  - enabled: 1
+    path: Assets/Ninja Strike Game/Scenes/Main.unity
+    guid: 875f6011b51a64f8fa2153a0df9cd2c0
   m_configObjects: {}
