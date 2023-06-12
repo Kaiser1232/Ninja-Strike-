@@ -42,7 +42,7 @@ public class PlayerController : MonoBehaviour
         Vector3 movementDirection = new Vector3(horizontalInput, 0, verticalInput);
         movementDirection.Normalize();
 
-        transform.Translate(movementDirection * moveSpeed * Time.deltaTime,  Space.World);
+        characterController.Move(movementDirection * moveSpeed * Time.deltaTime);
 
         if (movementDirection != Vector3.zero)
         {
